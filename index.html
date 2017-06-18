@@ -1,151 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
  <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BluePink</title>
-  <link rel="stylesheet" href="assets/styles/style.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="jquery-3.1.1.min.js"></script>
  </head>
  <body>
-  <div class="wrapper">
-   <header class="header clearfix">
-    <h1><a href="#"><span class="h1-first">Blue</span><span class="h1-second">Pink</span><span class="h1-third">.com</span></a></h1>
-	<nav class="navigation">
-	 <ul>
-	 <li><a href="#">Home</a></li>
-	  <li><a href="#">About</a></li>
-	  <li><a href="#">Blogs</a></li>
-	   <li><a href="#">Work</a></li>
-	   <li><a href="#">News</a></li>
-	  <li><a href="#">Contacts</a></li>
-	 </ul>
-	</nav>
-   </header>
-   <div class="container clearfix">
-     <div class="content">
-	  <h2>Lorem ipsum dolor sit amet, consectetur</h2>
-	  <p class="h2__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-	  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-	  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <a class="h2__description-link" href="#">Excepteur sint occaecat cupidatat non proident</a>,
-	  sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	  <h3>Images</h3>
-	  <div class="pic-box">
-	  <img src="assets/images/pic-box.jpg" alt="picture place" />
-	  </div><!--
-	  --><div class="pic-box">
-	  <img src="assets/images/pic-box.jpg" alt="picture place" />
-	  </div><!--
-	  --><div class="pic-box">
-	  <img src="assets/images/pic-box.jpg" alt="picture place" />
-	  </div>
-	  <h3>Lists and Descriptions</h3>
-	  <div class="list-box1">
-	   <h5>Unordered list</h5>
-	   <ul class="list-style">
-	    <li>Sed ut perspiciatis unde omnis iste</li>
-	    <li>Lorem ipsum dolor sit amet</li>
-	    <li>At vero eos et accusamus et iusto</li>
-	    <li>Et harum quidem rerum facilis</li>
-	   </ul>
-	  </div><!--
-	  --><div class="list-box2">
-	   <h5>Ordered list</h5>
-	   <ol>
-	    <li>Sed ut perspiciatis unde omnis iste</li>
-	    <li>Lorem ipsum dolor sit amet</li>
-	    <li>At vero eos et accusamus et iusto</li>
-	    <li>Et harum quidem rerum facilis</li>
-	   </ol>
-	  </div><!--
-	  --><div class="list-box3">
-	   <h5>Descriptions</h5>
-	   <ul>
-	    <li>Sed ut perspiciatis unde omnis iste</li>
-	    <li>Lorem ipsum dolor sit amet</li>
-	    <li>At vero eos et accusamus et iusto</li>
-	    <li>Et harum quidem rerum facilis</li>
-	   </ul>
-	  </div>
-	  <h3>Table</h3>
-	   <table class="table">
-	    <thead>
-		 <tr>
-		  <th>Lorem</th>
-		  <th>Sed ut perspiciatis unde</th>
-		  <th>Sed ut perspiciatis unde</th>
-		 </tr>
-		</thead>
-		<tbody>
-		 <tr>
-		  <td>At vero eos et</td>
-		  <td>At vero eos et</td>
-		  <td>At vero eos et</td>
-		 </tr>
-		 <tr>
-		  <td>At vero eos et</td>
-		  <td>At vero eos et</td>
-		  <td>At vero eos et</td>
-		 </tr>
-		 <tr>
-		  <td>At vero eos et</td>
-		  <td>At vero eos et</td>
-		  <td>At vero eos et</td>
-		 </tr>
-		 <tr>
-		  <td>At vero eos et</td>
-		  <td>At vero eos et</td>
-		  <td>At vero eos et</td>
-		 </tr>
-		</tbody>
-	   </table>
-	   <h3>Forms</h3>
-	   <form action="#" method="post">
-	    <fieldset>
-		 <p class="form-paragraph">Text:</p>
-		 <input class="form__input-text" type="text" name="text" placeholder="Input type text">
-		 <p class="form-paragraph">Select:</p>
-		 <select class="form__input-select" name="select">
-		  <option value="option">Option</option>
-		  <option value="option">Option</option>
-		  <option value="option">Option</option>
-		 </select><br>
-		 <input class="form__input-checkbox" type="checkbox" name="checkbox" value="checkbox"><span class="form__input-checkbox-text">Sed ut perspiciatis unde omnis iste natus</span><br>
-		 <input class="form__input-radio" type="radio" name="radio" value="radio" checked><span class="form__input-radio-text">Lorem ipsum dolor sit amet, consectetur</span>
-		 <p class="form-paragraph">Textarea:</p>
-		 <textarea class="form__textarea" name="text" rows="10" cols="20">
-		 </textarea><br>
-		 <input class="form-btn" type="submit" value="Button">
-		</fieldset>
-	   </form>
-     </div>
-	 <aside class="aside">
-	 <div class="aside__box">
-      <ul>
-	   <li><a href="#">Natus error sit voluptatem</a></li>
-	   <li><a href="#">Et veritatis quasi</a></li>
-	   <li><a href="#">Vitae dicta sunt explicabo</a></li>
-	   <li><a href="#">Nectun sed quia conseq</a></li>
-	   <li><a href="#">Natus error sit voluptatem</a></li>
-	   <li><a href="#">Vitae dicta sunt explicabo</a></li>
-	   <li><a href="#">Et veritatis quasi</a></li>
-	   <li><a href="#">Natus error sit voluptatem</a></li>
-	   <li><a href="#">Nesciunt siqui ipsam</a></li>
-	   <li><a href="#">Natus error sit voluptatem</a></li>
-	  </ul>
-	  </div>
-	  <div class="aside__box">
-	   <h4>Left Block</h4>
-	   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-	   eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-	   quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-	   <a class="drop-down" href="#">Read more &raquo;</a>
-	  </div>
-     </aside>
-	 </div>
-    <footer class="footer">
-	 <p>&copy; Footer content <a class="footer-link" href="#">Link footer</a></p>
-	</footer>
+  <h1>Mighty Gumball Sales</h1>
+  <div id="sales">
+  	
   </div>
+ <script src="javascript.js"></script>
  </body>
 </html>
